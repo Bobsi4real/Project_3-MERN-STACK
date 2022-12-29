@@ -47,7 +47,7 @@ This command is to initialise your project, so that a new file named package.jso
 
 Then you run the command ls to be sure that you have package.json file created.
 
-Image
+![Image](./Images/npm_init.png)
 
 ## Installing ExpressJs
 Before we proceed to installing Express.Js, have it at the back of your mind that Express is a framework for Node.js, therefore a lot of things developers would have programmed is already taken care of out of the box. Therefore, it simplifies development, and abstracts a lot of low-level details. For example, Express helps to define routes of your application based on HTTP methods and URLs.
@@ -110,7 +110,7 @@ Now we need to open this port in EC2 Security Groups. You need make sure your se
 
 Open up your browser and try to access your server’s Public IP or Public DNS name followed by port 5000:
 
-http://<PublicIP-or-PublicDNS>:5000
+http://PublicIP-or-PublicDNS:5000
 
 ![Image](./Images/wlcome_to_express.png)
 
