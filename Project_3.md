@@ -119,9 +119,12 @@ NOTE: To find your public IP address, please check your AWS console.
 ## Routes
 There are three actions that our To-Do application needs to be able to do:
 
-Create a new task
-Display list of all tasks
-Delete a completed task
+- Create a new task
+
+- Display list of all tasks
+
+- Delete a completed task
+
 Each task will be associated with some particular endpoint and will use different standard HTTP request methods: POST, GET, DELETE.
 
 For each task, we need to create routes that will define various endpoints that the Todo app will depend on. So let us create a folder routes in the Todo folder.
